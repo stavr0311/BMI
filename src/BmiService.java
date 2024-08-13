@@ -1,10 +1,11 @@
+import javax.swing.*;
+
 public class BmiService {
 
-    public int bmi(int roost, int ves) {
+    public int massa(double metr, double kg) {
 
+        double result = kg / (metr * metr);
 
-        int result = ves / (roost * roost);
-
-        return result;
+        return (int) result;
     }
 }
