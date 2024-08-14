@@ -1,5 +1,3 @@
-import javax.swing.*;
-
 public class BmiService {
 
     public int massa(double metr, double kg) {
